@@ -1,0 +1,902 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@font-face{
+    font-family: "Bring Heart";
+}
+body{
+    margin: 0;
+    width: 100% !important;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-weight:"400";
+    color: white;
+
+
+}
+
+a:hover{
+   color:#5858a3;
+
+}
+
+h1:hover{
+     color:#5858a3;
+}
+
+li{
+    padding: 12px;
+}
+
+header {
+    width: 100%;
+    background:url('mac.jpg');
+    background-size: cover;
+    height: 700px;
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    width: 100%;
+}
+
+
+
+#about{
+    background-color: black;
+
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Merriweather";
+    letter-spacing: 1rem;
+}
+
+
+h1{
+        font-weight: 500;
+        font-size: 5rem;
+        text-align: center;
+        font-family: "Permanent Marker";
+        color: white;
+}
+
+h2{
+
+        font-weight: 700;
+        font-size: 4rem;
+        text-align: center;
+        color:white;
+        font-family: "Roboto Condensed";
+        font-weight: 700;
+
+}
+
+#sport{
+    background-color: black;
+}
+
+ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed";
+
+    
+
+}
+
+p{
+    font-family: "Roboto Condensed";
+}
+
+
+img {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+  
+}
+
+#one{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+ 
+
+}
+
+#two{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+
+}
+
+#three{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+#four{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+#five{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+}
+
+#six{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+#seven{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+#eight{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+}
+
+#nine{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+#ten{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+
+#eleven{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+
+
+}
+
+
+
+
+#img{
+    
+   border-radius: 50%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+#texte{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+    color: white;
+    background-color: #5858a3;
+}
+
+
+
+#hard-skills{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    padding: 4px;
+
+}
+
+#soft-skills{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    padding: 4px;
+}
+
+.info{
+    display: flex;
+    color: white;
+    font-size :1.2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Condensed";
+
+}
+
+.first{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:34px 34px;
+   
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 30px;
+    
+
+}
+
+
+
+
+ article{
+    background: url(iphone.jpg);
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+    #test{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+
+    #music{
+        width: 30%;
+        height: 240px;
+        margin: 0;
+
+    }
+
+   #course{
+        width: 20%;
+        height: 240px;
+        margin: 0;
+
+    }
+
+
+
+    #voyage{
+    width: 30%;
+    height: 240px;
+    margin: 0;
+
+}
+
+    span{
+        font-weight: 700;
+    font-size: 1.2rem;
+
+    }
+#photo{
+    width: 20%;
+    height: 240px;
+    margin: 0;
+
+}
+
+
+
+
+#contact{
+    color: black;
+}
+
+.formation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    padding: 4px;
+
+
+}
+
+#formation {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    padding: 4px;
+
+}
+
+
+.grand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #515559;
+}
+
+.grand > div {
+    margin: 20px;
+}
+
+.date{
+    font-family: "Roboto Condensed";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+span img #logo{
+    display: flex;
+    align-items: center;
+}
+
+#sup{
+    
+    padding-bottom: 250px;
+}
+
+
+#interet{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#experience{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+ 
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #515559;
+    font-family: "Merriweather";
+    font-size: 1.1rem;
+    color: white;
+
+
+}
+  
+  footer {
+
+    padding-top: 40px;
+    width: 100%;
+    height: 220px;
+    display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   background-color: grey;
+   margin: 0;
+   padding: 0;
+
+
+
+}
+
+
+
+#mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    
+}
+
+
+#icon{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+#copyright{
+    color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Condensed";
+
+}
+
+#facebook{
+    cursor: pointer;
+    width: 30px;
+
+}
+
+#insta{
+        cursor: pointer;
+        width: 40px;
+
+}
+
+#linkedin{
+    cursor: pointer;
+    width: 30px;
+}
+
+#gmail {
+    cursor: pointer;
+    width: 35px;
+    padding: 3px;
+}
+
+#align{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+  
+    html{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+      }
+    
+
+   
+
+    header {
+        background: url('mac3.jpg');
+
+        width: 100vh !important;
+        
+    }
+
+   
+    ul{
+        font-size: 1rem;
+        padding-left: 0px;
+    }
+        
+    h1{
+        padding-top: 20px;
+        color: black;
+        font-size: 4rem;
+
+
+    }
+
+    h1:hover{
+     color:#5858a3;
+    }
+
+    h2{
+        padding: 30px 0 20px -5px; 
+        color: black;
+        font-size: 3rem;
+    }
+    
+     article{
+    background: url(iphone.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+    
+
+    }
+    
+
+
+    .experience{
+        width: 100vh;
+        padding-left: 7px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        background-color: #515559;
+        font-family: "Merriweather";
+        font-size: 1.1rem;
+        color: white;
+
+
+    }
+
+    
+    
+
+
+    #one{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+    
+    #two{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+        text-align: center;
+
+    }
+    #three{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+    #four{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+    #five{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+    #six{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #seven{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #eight{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #nine{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #ten{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #eleven{
+        width: 100px;
+        height: 100px;
+        font-size: small;
+    }
+
+    #twelve{
+        width: 100px;
+        height: 100%;
+        font-size: small;
+        
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .second{
+        flex-wrap: wrap;
+    }
+    
+    #test{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #voyage{
+        width: 150vh;
+        height: 50vh;
+
+    }
+
+    #music{
+        width: 150vh;
+        height: 50vh;
+
+    }
+    
+    #course{
+        width: 150vh;
+        height: 50vh;
+
+    }
+
+    #photo{
+        width: 150vh;
+        height: 100vh;
+
+    }
+
+
+    #soft-skills{
+        width: 100vh;
+    }
+
+    #hard-skills{
+        width: 100vh;
+    }
+
+        
+    #interet{
+        width: 100vh;
+    }
+
+    #experience{
+        width: 100vh;
+    }
+    .grand{
+        width: 100vh;
+    }
+
+
+    
+    
+    .grand{
+        width: 100vh;
+    }
+
+    #experience{
+        width: 100vh;
+    }
+
+    #formation{
+        width: 100vh;
+    }
+
+    #hard-skills{
+        width: 100vh;
+
+    }
+
+    #soft-skills{
+        width: 100vh;
+    }
+
+    #interet{
+        width: 105vh;
+    }
+
+    .experience{
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grand{
+        width: 100vh;
+
+    }
+
+    article{
+        background: ("iphone.jpg");
+        background-size: cover;
+        width: 100vh;
+    }
+    
+    footer{
+        width: 103vh;
+    }
+
+}
+
+
